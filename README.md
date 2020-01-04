@@ -1,5 +1,7 @@
 # Docker Compose Templer
 
+**Docker Support**: Use this with Docker as `gauravmm/python-docker-compose-templer:latest`
+
 This is a little Python3 utility that adds more dynamism to [Docker Compose or Docker Stack files](https://docs.docker.com/compose/compose-file/) by utilizing the [Jinja2 template engine](http://jinja.pocoo.org/).
 
 Docker Compose (DC) files are quite static in nature. It is possible to use [variable substitution](https://docs.docker.com/compose/compose-file/#variable-substitution) to run slightly different container configurations based on a single DC file. This, however, doesn't allow complex variations in networks, volumes, etc. and proper code reuse. Therefore I decided to create this Python program to introduce Jinja2 templating to DC files. A _definition file_ says where to find the templates, what variables to use and where to put the rendered files.

@@ -1,6 +1,7 @@
 # Changelog
-## [Unreleased]
+## 1.1.1 - 2020-01-04
 ### Added
+- Docker support
 
 ## 1.1.0 - 2019-04-06
 ### Added
